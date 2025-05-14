@@ -8,7 +8,10 @@ curl -fsSL https://dria.co/launcher | bash
 # 4th command ( start node )
 sudo dkn-compute-launcher start
 # 5th commmand ( USE THESE 2 commands if get ERROR )
+# I
 ls ~/.dria/bin
+# II
 export PATH="$HOME/.dria/bin:$PATH"
+
 # NOW PASTE 4TH COMMAND AND START NODE 
 # IF STILL GET SAME ERROR THEN REPEAT 3RD AND 5TH TWO COMMAND THEN AGAIN START IT USING 4TH COMMAND 
